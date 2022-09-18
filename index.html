@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie App</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- boxicon cdn -->
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    <div class="header">
+        <h2>Movies <span>Webpage</span></h2>
+
+        <!-- <div class="showMenu">
+            <ul>
+                <li><a href='#'>Home</a></li>
+                <li><a href='#'>About Us</a></li>
+                <li><a href='#'>Popular</a></li>
+                <li><a href='#'>Latest</a></li>
+            </ul>
+        </div> -->
+
+        <div class="setting">
+            <ul>
+                <li><i class='bx bx-cog' id="confg"></i></li>
+                <li><i class='bx bx-sun'></i></li>
+                <!-- <li><i class='bx bx-menu' id="menuToggle"></i></li> -->
+            </ul>
+        </div>
+    </div>
+
+    <!-- landing page starts -->
+    <div class="landing">
+        <img src="img/6.webp" alt="landing" srcset="" id="landing-img">
+        <div class="imgbox-toggle">
+            <img src="img/1.jpg" alt="" srcset="" class="img">
+            <img src="img/2.jpg" alt="" srcset="" class="img">
+            <img src="img/3.webp" alt="" srcset="" class="img">
+            <img src="img/4.png" alt="" srcset="" class="img">
+            <img src="img/5.webp" alt="" srcset="" class="img">
+            <img src="img/6.webp" alt="" srcset="" class="img">
+        </div>
+
+        <div class="search">
+            <h2>Search Movies in Here</h2>
+            <input type="text" placeholder="search here ....." class="search-box">
+        </div>
+    </div>
+    <!-- landing page ends -->
+
+    <!-- scroll up starts -->
+        <div class="scrollUp">
+            <i class='bx bx-chevrons-up'></i>
+        </div>
+    <!-- scroll up ends -->
+
+
+<!-- popular movies starts -->
+        <div class="popular">
+            <h1>Popular Movies</h1>
+            <div class="movie-container">
+                
+            </div>
+        </div>
+<!-- popular movies ends -->
+
+<!-- loading starts -->
+<div class="loader">
+    <div class="load-child"></div>
+</div>
+<!-- loading ends -->
+    <script src="script.js"></script>
+</body>
+</html>
